@@ -1,0 +1,17 @@
+{
+  "name": "veap-upnyk-logger",
+  "version": "1.0.0",
+  "description": "Service to log Indoor Hidroponik MQTT data to Supabase",
+  "main": "logger.js",
+  "scripts": {
+    "start": "node logger.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.1",
+    "dotenv": "^16.4.5",
+    "mqtt": "^5.13.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
