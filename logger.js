@@ -7,7 +7,7 @@ const MQTT_BROKER_URL = process.env.MQTT_URL || 'wss://veap-upnyk.id/mqtt';
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 const MQTT_TOPIC = 'indoorHidroponic/sensors/data';
-const SAVE_INTERVAL_MS = 60 * 1000;
+const SAVE_INTERVAL_MS = 10 * 60 * 1000;
 
 // Validasi konfigurasi
 if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
